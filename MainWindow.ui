@@ -92,7 +92,7 @@
        </font>
       </property>
       <property name="text">
-       <string>上传数据</string>
+       <string>协助开发</string>
       </property>
      </widget>
     </item>
@@ -163,7 +163,10 @@
    </layout>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="icon.qrc"/>
+  <include location="resource.qrc"/>
+ </resources>
  <connections>
   <connection>
    <sender>pushButton_StartCheck</sender>

@@ -15,6 +15,7 @@ from PyQt5.QtCore import QThread, pyqtSignal
 
 from StatusFetcher import returnStatus
 from MachineURL import *
+import icon_rc
 
 # 设定全局变量global_result
 global_result = ""
@@ -151,7 +152,7 @@ class Ui_MainWindow(object):
         self.label_2.setText(_translate("MainWindow", "选择宿舍楼:"))
         self.label_3.setText(_translate("MainWindow", "选择水控端:"))
         self.pushButton_About.setText(_translate("MainWindow", "关于程序"))
-        self.pushButton_UploadData.setText(_translate("MainWindow", "上传数据"))
+        self.pushButton_UploadData.setText(_translate("MainWindow", "协助开发"))
         self.comboBox_SideSelect.setItemText(0, _translate("MainWindow", "兆基"))
         self.comboBox_SideSelect.setItemText(1, _translate("MainWindow", "常工"))
         self.pushButton_StartCheck.setText(_translate("MainWindow", "开始查询"))
@@ -163,6 +164,8 @@ class Ui_MainWindow(object):
         font.setFamily("华文新魏")
         font.setPointSize(16)
         self.textBrowser_ShowResult.setFont(font)
+        #设置窗口图标,利用icon_rc.py文件
+        MainWindow.setWindowIcon(QtGui.QIcon(':/icon.ico'))
         # 设置窗口标题
         MainWindow.setWindowTitle("U Clean Status Checker")
         self.textBrowser_ShowResult.clear()

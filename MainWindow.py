@@ -113,9 +113,10 @@ class Ui_MainWindow(object):
         self.label_2.setText(_translate("MainWindow", "选择宿舍楼:"))
         self.label_3.setText(_translate("MainWindow", "选择水控端:"))
         self.pushButton_About.setText(_translate("MainWindow", "关于程序"))
-        self.pushButton_UploadData.setText(_translate("MainWindow", "上传数据"))
+        self.pushButton_UploadData.setText(_translate("MainWindow", "协助开发"))
         self.comboBox_SideSelect.setItemText(0, _translate("MainWindow", "兆基"))
         self.comboBox_SideSelect.setItemText(1, _translate("MainWindow", "常工"))
         self.pushButton_StartCheck.setText(_translate("MainWindow", "开始查询"))
         self.comboBox_BuildingSelect.setItemText(0, _translate("MainWindow", "东十九"))
         self.label.setText(_translate("MainWindow", "U净洗衣机状态查询器"))
+import icon_rc
