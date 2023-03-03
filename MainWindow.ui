@@ -6,223 +6,161 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>782</width>
-    <height>703</height>
+    <width>907</width>
+    <height>699</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>250</x>
-      <y>0</y>
-      <width>631</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>华文新魏</family>
-      <pointsize>20</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>U净洗衣机状态查询器</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>110</y>
-      <width>261</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>华文新魏</family>
-      <pointsize>18</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>选择宿舍楼:</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_BuildingSelect">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>110</y>
-      <width>131</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>华文新魏</family>
-      <pointsize>18</pointsize>
-     </font>
-    </property>
-    <item>
-     <property name="text">
-      <string>东十九</string>
-     </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="2" alignment="Qt::AlignHCenter">
+     <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <family>华文新魏</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>For SCNU</string>
+      </property>
+     </widget>
     </item>
-   </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>170</y>
-      <width>251</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>华文新魏</family>
-      <pointsize>18</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>选择水控端:</string>
-    </property>
-   </widget>
-   <widget class="QComboBox" name="comboBox_SideSelect">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>170</y>
-      <width>131</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>华文新魏</family>
-      <pointsize>18</pointsize>
-     </font>
-    </property>
-    <item>
-     <property name="text">
-      <string>兆基</string>
-     </property>
+    <item row="11" column="2">
+     <widget class="QPushButton" name="pushButton_ExitProgram">
+      <property name="font">
+       <font>
+        <family>华文新魏</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>退出程序</string>
+      </property>
+     </widget>
     </item>
-    <item>
-     <property name="text">
-      <string>常工</string>
-     </property>
+    <item row="5" column="1" alignment="Qt::AlignHCenter">
+     <widget class="QLabel" name="label_2">
+      <property name="font">
+       <font>
+        <family>华文新魏</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>选择宿舍楼:</string>
+      </property>
+     </widget>
     </item>
-   </widget>
-   <widget class="QPushButton" name="pushButton_StartCheck">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>230</y>
-      <width>141</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>华文新魏</family>
-      <pointsize>18</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>开始查询</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_ExitProgram">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>280</y>
-      <width>141</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>华文新魏</family>
-      <pointsize>18</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>退出程序</string>
-    </property>
-   </widget>
-   <widget class="QTextBrowser" name="textBrowser_ShowResult">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>340</y>
-      <width>761</width>
-      <height>351</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>420</x>
-      <y>40</y>
-      <width>191</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>华文新魏</family>
-      <pointsize>16</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>--For SCNU</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_About">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>280</y>
-      <width>141</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>华文新魏</family>
-      <pointsize>18</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>关于程序</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_UploadData">
-    <property name="geometry">
-     <rect>
-      <x>410</x>
-      <y>230</y>
-      <width>141</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>华文新魏</family>
-      <pointsize>18</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string>上传数据</string>
-    </property>
-   </widget>
+    <item row="6" column="1" alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+     <widget class="QLabel" name="label_3">
+      <property name="font">
+       <font>
+        <family>华文新魏</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>选择水控端:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1">
+     <widget class="QPushButton" name="pushButton_About">
+      <property name="font">
+       <font>
+        <family>华文新魏</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>关于程序</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="2">
+     <widget class="QPushButton" name="pushButton_UploadData">
+      <property name="font">
+       <font>
+        <family>华文新魏</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>上传数据</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QComboBox" name="comboBox_SideSelect">
+      <property name="font">
+       <font>
+        <family>华文新魏</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>兆基</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>常工</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QPushButton" name="pushButton_StartCheck">
+      <property name="font">
+       <font>
+        <family>华文新魏</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>开始查询</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QComboBox" name="comboBox_BuildingSelect">
+      <property name="font">
+       <font>
+        <family>华文新魏</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>东十九</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="12" column="1" colspan="2">
+     <widget class="QTextBrowser" name="textBrowser_ShowResult"/>
+    </item>
+    <item row="1" column="1" alignment="Qt::AlignHCenter">
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <family>华文新魏</family>
+        <pointsize>20</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>U净洗衣机状态查询器</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
  </widget>
  <resources/>
