@@ -9,7 +9,7 @@ def getStatus(postData):
     url = "https://phoenix.ujing.online/api/v1/wechat/devices/scanWasherCode"
     headers = {
         "Accept": "application/json, text/plain, */*",
-        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBVc2VySWQiOiJvZ3lSVDF1M0dlZU9OV2N5SGdHekZYM3RoLVVNIiwiZXhwIjoxNjg1ODAxOTEyLCJpYXQiOjE2Nzc3NjY3MTIsImlkIjoxNjE3NDk5NywibmFtZSI6IjE3Njg4MDgxODM0In0.BntJy98sKGKyzfZpxAZUg4iySWCudgb00SZefP4tmxQ",
+        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBVc2VySWQiOiJvZ3lSVDF1M0dlZU9OV2N5SGdHekZYM3RoLVVNIiwiZXhwIjoxNjg1ODg4NjQ5LCJpYXQiOjE2Nzc4NTM0NDksImlkIjozMDE5NDgzMiwibmFtZSI6IjE5ODc2NTc2NzY4In0.SwCwKsF2c8g53n9SpyP0SxDPw0_IKyco6zygZAekXL4",
         "Accept-Language": "zh-CN,zh-Hans;q=0.9",
         "Accept-Encoding": "gzip, deflate, br",
         "Content-Type": "application/json; charset=utf-8",

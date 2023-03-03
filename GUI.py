@@ -164,7 +164,7 @@ class Ui_MainWindow(object):
         font.setFamily("华文新魏")
         font.setPointSize(16)
         self.textBrowser_ShowResult.setFont(font)
-        #设置窗口图标,利用icon_rc.py文件
+        # 设置窗口图标,利用icon_rc.py文件
         MainWindow.setWindowIcon(QtGui.QIcon(':/icon.ico'))
         # 设置窗口标题
         MainWindow.setWindowTitle("U Clean Status Checker")
